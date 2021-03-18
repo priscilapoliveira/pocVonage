@@ -1,0 +1,6 @@
+module Pods_PocVonage {
+  umbrella header "Pods-PocVonage-umbrella.h"
+
+  export *
+  module * { export * }
+}

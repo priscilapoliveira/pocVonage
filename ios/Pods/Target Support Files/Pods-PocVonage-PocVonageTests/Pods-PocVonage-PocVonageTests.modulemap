@@ -1,0 +1,6 @@
+module Pods_PocVonage_PocVonageTests {
+  umbrella header "Pods-PocVonage-PocVonageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
