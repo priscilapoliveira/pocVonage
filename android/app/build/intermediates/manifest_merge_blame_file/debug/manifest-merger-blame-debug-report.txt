@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pocvonage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:5:9-69
+13-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:5:26-66
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:7:5-71
+15-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:7:22-68
+16
+17    <uses-feature
+17-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:8:5-84
+18        android:name="android.hardware.camera"
+18-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:8:19-57
+19        android:required="true" />
+19-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:8:58-81
+20    <uses-feature
+20-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:9:5-95
+21        android:name="android.hardware.camera.autofocus"
+21-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:9:19-67
+22        android:required="false" />
+22-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:9:68-92
+23    <uses-feature
+23-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:10:5-88
+24        android:name="android.hardware.microphone"
+24-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:10:19-61
+25        android:required="true" />
+25-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:10:62-85
+26
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->[com.facebook.flipper:flipper:0.75.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+27-->[com.facebook.flipper:flipper:0.75.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+28    <uses-permission android:name="android.permission.BLUETOOTH" />
+28-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:13:5-68
+28-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:13:22-65
+29    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+29-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:14:5-75
+29-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:14:22-72
+30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+30-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:15:5-75
+30-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:15:22-72
+31
+32    <uses-feature
+32-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:21:5-23:35
+33        android:glEsVersion="0x00020000"
+33-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:22:9-41
+34        android:required="true" />
+34-->[com.opentok.android:opentok-android-sdk:2.18.1] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/c98069824bad4deacecacb6f7f3d1b45/jetified-opentok-android-sdk-2.18.1/AndroidManifest.xml:23:9-32
+35
+36    <application
+36-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:11:5-29:19
+37        android:name="com.pocvonage.MainApplication"
+37-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:12:7-38
+38        android:allowBackup="false"
+38-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:16:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] /Users/priscilaoliveira/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:14:7-41
+42        android:label="@string/app_name"
+42-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:13:7-39
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:15:7-52
+44        android:theme="@style/AppTheme"
+44-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:17:7-38
+45        android:usesCleartextTraffic="true" >
+45-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/debug/AndroidManifest.xml:8:9-44
+46        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+46-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/debug/AndroidManifest.xml:11:9-86
+46-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/debug/AndroidManifest.xml:11:19-83
+47        <activity
+47-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:18:7-28:18
+48            android:name="com.pocvonage.MainActivity"
+48-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:19:9-37
+49            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+49-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:21:9-86
+50            android:label="@string/app_name"
+50-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:20:9-41
+51            android:launchMode="singleTask"
+51-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:22:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:23:9-51
+53            <intent-filter>
+53-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:24:9-27:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:25:13-65
+54-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:25:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:26:13-73
+56-->/Users/priscilaoliveira/Desktop/pocVonage/android/app/src/main/AndroidManifest.xml:26:23-70
+57            </intent-filter>
+58        </activity>
+59    </application>
+60
+61</manifest>

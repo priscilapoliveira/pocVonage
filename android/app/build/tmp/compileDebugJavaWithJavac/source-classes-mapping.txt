@@ -1,0 +1,14 @@
+com/pocvonage/MainActivity.java
+ com.pocvonage.MainActivity
+com/pocvonage/BuildConfig.java
+ com.pocvonage.BuildConfig
+com/pocvonage/ReactNativeFlipper.java
+ com.pocvonage.ReactNativeFlipper
+ com.pocvonage.ReactNativeFlipper$1
+ com.pocvonage.ReactNativeFlipper$2
+ com.pocvonage.ReactNativeFlipper$2$1
+com/pocvonage/MainApplication.java
+ com.pocvonage.MainApplication
+ com.pocvonage.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
