@@ -1,0 +1,5 @@
+const API_KEY = "47169784";
+const SESSION_ID = "2";
+const TOKEN = "83c613ccedeb79036b6a093c3e1401358b978e34";
+
+export { API_KEY, SESSION_ID, TOKEN };
